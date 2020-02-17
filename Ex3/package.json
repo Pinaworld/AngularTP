@@ -1,21 +1,21 @@
 {
-  "name": "pokemon",
+  "name": "ex3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
-    "prestart": "tsc index.ts",
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Pinaworld/AngularTP.git"
+    "prestart": "tsc src/index.ts",
+    "start": "node src/index.js",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Pinaworld/AngularTP/issues"
+  "dependencies": {
+    "jest": "^25.1.0",
+    "typescript": "^3.7.5"
   },
-  "homepage": "https://github.com/Pinaworld/AngularTP#readme"
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "ts-jest": "^25.2.0"
+  }
 }
