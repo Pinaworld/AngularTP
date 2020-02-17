@@ -1,0 +1,21 @@
+{
+  "name": "ex3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "prestart": "tsc src/index.ts",
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.1.0",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "ts-jest": "^25.2.0"
+  }
+}
